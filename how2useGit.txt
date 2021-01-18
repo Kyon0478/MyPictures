@@ -1,7 +1,14 @@
 1. Generate SSH Key, and add into your repository.
   ssh-keygen -t rsa 
 
-2. Command 
+2. Git config 
+    $ git config --global user.name "wupx"  
+    $ git config --global user.email "wupx@qq.com" 
+
+    git config --global color.ui true  //configure the color;
+
+
+3. Command 
     git init (把这个文件变成Git 可管理的仓库)
 
     git add *    （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
